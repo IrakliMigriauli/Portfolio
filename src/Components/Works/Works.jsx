@@ -6,11 +6,18 @@ import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 
+import { themeContext } from "../../Context";
+import { useContext } from 'react';
+
 const Works = () => {
+
+    const theme = useContext(themeContext);
+    const darkMode = theme.state.darkMode;
+
   return (
     <div className="works">
         <div className="awesome">
-            <span>Works for All these</span>
+            <span style={{color: darkMode? 'whitesmoke' : ''}} >Works for All these</span>
             <span>Brands & Clients</span>
             <spane>Lorem ispum is simpley dummy text of printing of printing Lorems
                 <br />

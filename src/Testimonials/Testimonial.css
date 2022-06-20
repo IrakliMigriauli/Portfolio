@@ -23,6 +23,10 @@
     color: var(--orange);
 }
 
+.t-heading span{
+    word-spacing: normal;
+}
+
 .t-blur1{
     left: 38rem;
     top: 16rem;
@@ -72,4 +76,8 @@
 
 .t-wrapper .swiper-pagination-bullet-active{
     background: var(--orange);
+}
+
+.t-wrapper .swiper-pagination-bullet {
+    background: yellowgreen;
 }
