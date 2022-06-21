@@ -35,3 +35,9 @@
     color: #5290fd;
     cursor: pointer;
 }
+
+@media screen and (max-width: 480px) {
+    .card{
+        width:auto;
+    }
+}

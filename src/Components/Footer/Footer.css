@@ -24,3 +24,12 @@
     gap: 1rem;
 }
 
+@media screen and (max-width: 480px) {
+    .f-content{
+        gap: 0.3rem;
+    }
+    .f-content>span{
+        display: none;
+    }
+}
+

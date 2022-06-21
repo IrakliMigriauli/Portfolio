@@ -44,3 +44,10 @@
 {
     color: var(--orange);
 }
+
+@media screen and (max-width: 480px) {
+    .experience{
+        width: auto;
+        gap: 1rem;
+    }
+}
